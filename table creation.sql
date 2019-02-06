@@ -54,7 +54,7 @@ drop table IF EXISTS horario;
 create table horario(
 	horario_id int not null,
     dias_semana varchar(50),
-    pedriodo int,
+    periodo int,
     horario varchar(50),
     hospital_id int,
     grupo_id int
