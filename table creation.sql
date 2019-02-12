@@ -33,7 +33,7 @@ create table hospital(
 	hospital_id int not null,
 	nombre varchar(200),
 	telefono varchar(200),
-	responsbale varchar(200),
+	responsable varchar(200),
 	domicilio varchar(200)
 );
 
